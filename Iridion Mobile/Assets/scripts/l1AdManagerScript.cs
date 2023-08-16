@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
-public class l1AdManagerScript : MonoBehaviour, IUnityAdsListener
-{
+//public class l1AdManagerScript : MonoBehaviour, IUnityAdsListener
+public class l1AdManagerScript : MonoBehaviour
+{/*
     string GooglePlayID="4139498";
     string interstitialAD="Interstitial_Android",rewardedAD="Rewarded_Android";
     public GameObject adButton,cashAmt,cashAmtclone;
@@ -81,4 +82,5 @@ public class l1AdManagerScript : MonoBehaviour, IUnityAdsListener
     public void OnDestroy() {
         Advertisement.RemoveListener(this);
     }
+    */
 }

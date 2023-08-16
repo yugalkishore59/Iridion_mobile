@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
-public class adManagerScript : MonoBehaviour, IUnityAdsListener
-{
+//public class adManagerScript : MonoBehaviour, IUnityAdsListener
+public class adManagerScript : MonoBehaviour
+{ /*
    // public static adManagerScript instance;
     string GooglePlayID="4139498";
     string interstitialAD="Interstitial_Android",rewardedAD="Rewarded_Android";
@@ -129,4 +130,5 @@ public class adManagerScript : MonoBehaviour, IUnityAdsListener
          yield return new WaitForSeconds(1f);
          adNotReadyTxt.SetActive(false);
      }
+     */
 }
